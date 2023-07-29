@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website</title>
+    <link rel="icon" href="images/internet.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo"></img>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Kunal.</span><br>Chawla from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="justify-cont">Hi there! I am excited to share that I am a Software Development Intern at Volvo Cars and a B.Tech. Computer Science student with a specialization in Artificial Intelligence and Machine Learning from Chandigarh University, Gharuan, Punjab.
+
+                        Aside from my academic pursuits, I am also the proud founder of Designamo Design House, a seed business idea that I have nurtured with my passion for graphic design and software development.
+                        
+                        My interests are diverse, and I am always eager to learn new things. But at the core of my passion lies a love for Artificial Intelligence and Software Development. Through my work, I aspire to create solutions that are not only efficient but also innovative.
+                        
+                        I am driven by a strong work ethic and a desire to make a difference in the world. I believe that through my dedication and hard work, I can achieve my goals and contribute to society in a meaningful way. I am part-time Youtuber as well and I love to make videos over Graphic Designing over my Youtube channel Designamo Design House which has currently 688 subscribers.
+                        
+                        I am always looking for new opportunities to grow and learn. If you would like to connect, please don't hesitate to reach out!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Software Development</span><br>Creating Innovative Solutions.</li>
+                            <li><span>Full-Stack Web Development</span><br>Web app Development with FrontEnd & BackEnd using MERN stack</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps using Java and Flutter</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Aug 2023- Current</span><br>Software Development Intern at Volvo Cars,Sweden</li>
+                            <li><span>May 2022-July 2022</span><br>Game Development Intern at BornMonkie,India</li>
+                            <li><span>Dec 2020-Feb 2022</span><br>Project Intern (Apprenticeship) at Microsoft, India</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Present</span><br>B.E in Computer Science with  in AI & ML at Chandigarh University </li>
+                            <li><span>2018-2019</span><br>Senior Secondary at Rajiv International School</li>
+                            <li><span>2016-2017</span><br>Secondary at Rajiv International School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p>As a passionate and skilled app developer, I constantly strive to craft innovative, user-friendly, and impactful applications that solve real-world problems and provide exceptional experiences to users for Android & IOS using Flutter & Java</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Skilled Web app developer, constantly srtive to craft innovatiove and user friendly applications that can solve real-world problems and provide exceptional user experience to the users by using MERN stack </p>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Software Solutions</h2>
+                    <p>Skilled ML developer, constantly srtive to craft innovatiove and user friendly applications that can solve real-world problems and provide exceptional user experience to the users by 
+                        using Python and its frameworks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>SafePath</h2>
+                        <p>Mobile application that uses computer vision algorithms to detect potholes in real-time using the device camera.</p>
+                        <a href="https://github.com/kcchawla85/StreetSafe/tree/master"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Moodify</h2>
+                        <p> Web application that uses machine learning algorithms to detect emotions in real-time using text.</p>
+                        <a href="https://kcchawla85-moodify-app-8c7fcp.streamlit.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Stock Price App</h2>
+                        <p>Web application that uses machine learning algorithms to track stock prices in real-time using yahoo finance</p>
+                        <a href="https://github.com/kcchawla85/stock_price_prediction/tree/master"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/kcchawla85?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> kcchawla85@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91-7888726626</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/kcchawla85"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/_bitmentor_"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/_bitmentor_/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kunal-chawla-36957b1a2/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Kunal_Chawla_CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form method="post" id="form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" id="submit" name="btn" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Kunal Chawla. Made with <i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        // Update the URL with the deployment URL from your published Google Apps Script
+        let url = 'https://script.google.com/macros/s/AKfycbwS16Cf5P16bxWdcRTt02oQrDrmfpB55PPZrzRSQ5RUAWvkg94_rQTkaMGaKvlB9qv1/exec?callback=?';
+        let form = document.querySelector('#form');
+
+    form.addEventListener("submit", (e) => {
+        e.target.btn.innerHTML="Submitting..";
+        let formd = new FormData(form);
+        fetch(url, {
+            method: "POST",
+            body: formd
+        })
+        .then((res) => res.text())
+        .then((finalRes) =>{
+            e.target.btn.innerHTML="Submitted";
+            console.log(finalRes);
+            form.reset();
+
+        })
+        .catch((error) => console.error('Error:', error)); // Handle any error that occurs during the fetch
+
+        e.preventDefault();
+    });
+// JavaScript for handling the mobile navigation menu
+document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+    const navMenu = document.querySelector('nav ul');
+    if (navMenu.classList.contains('show')) {
+        navMenu.classList.remove('show');
+    } else {
+        navMenu.classList.add('show');
+    }
+});
+
+// Add event listeners to each menu item to handle scrolling and closing the menu
+const navLinks = document.querySelectorAll('nav ul li a');
+for (const link of navLinks) {
+    link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const targetSection = document.querySelector(link.getAttribute('href'));
+        const navMenu = document.querySelector('nav ul');
+        const headerHeight = document.getElementById('header').offsetHeight;
+        const sectionHeight = targetSection.offsetHeight;
+        const windowHeight = window.innerHeight;
+        const targetPosition = targetSection.getBoundingClientRect().top + window.pageYOffset;
+        const scrollToPosition = targetPosition - (windowHeight - sectionHeight) / 2 ;
+        
+        navMenu.classList.remove('show');
+        
+        window.scroll({
+            top: scrollToPosition,
+            behavior: 'smooth'
+        });
+    });
+}
+
+
+
+
+    var tabLinks = document.getElementsByClassName('tab-links');
+    var tabContents = document.getElementsByClassName('tab-contents');
+
+    function openTab(tabName) {
+        for (tabLink of tabLinks) {
+            tabLink.classList.remove('active-link');
+        }
+        for (tabContent of tabContents) {
+            tabContent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabName).classList.add('active-tab');
+    }
+
+    
+    
+    
+    </script>
+    
+</body>
+
+</html>
